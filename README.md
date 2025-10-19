@@ -1,70 +1,88 @@
-# React.js and Tailwind CSS Assignment
+🧭 Task Manager – React.js, JSX, and CSS Front-End Development
+📘 Overview
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project is a Task Manager Application built using React.js and Tailwind CSS as part of the PLP MERN Stack Development course module: React JS, JSX, and CSS — Mastering Front-End Development.
 
-## Assignment Overview
+It demonstrates the use of reusable components, props, state management, routing, and API data fetching in a clean, modern UI.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+🚀 Features
 
-## Getting Started
+🧩 Reusable Components – Modular components like Button, TaskManager, and ApiData.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+🎨 Tailwind CSS Integration – Clean, responsive styling without custom CSS files.
 
-## Files Included
+🔄 React Router – Multi-page navigation between Home, Tasks, and API Data pages.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+🌐 API Fetching – Fetches data from an external API and displays it dynamically.
 
-## Requirements
+🧠 JSX Mastery – Proper use of props, conditional rendering, and reusable layouts.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
+🗂️ Project Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+ ├── components/
+ │    ├── Button.jsx
+ │    ├── TaskManager.jsx
+ │    └── ApiData.jsx
+ ├── pages/
+ │    ├── Home.jsx
+ │    └── TaskPage.jsx
+ ├── App.jsx
+ ├── main.jsx
+ ├── index.css
+ └── assets/
 
-## Submission
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-ToluwaseEni.git
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+2️⃣ Navigate to the project folder
+cd react-js-jsx-and-css-mastering-front-end-development-ToluwaseEni
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+3️⃣ Install dependencies
+npm install
 
-## Resources
+4️⃣ Run the development server
+npm run dev
+Then open the link shown in your terminal (usually http://localhost:5173/) to view the app in your browser.
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+🧮 Technologies Used
+
+React.js (Vite) – Front-end framework
+
+Tailwind CSS – Utility-first styling
+
+React Router DOM – Client-side routing
+
+PropTypes – Type checking for React components
+
+🌍 API Information
+
+The app fetches sample data from the public endpoint:
+https://jsonplaceholder.typicode.com/posts
+This endpoint is read-only and contains placeholder posts used for testing and demonstration.
+
+⚠️ No sensitive or private API keys are used in this project.
+📸 Preview
+
+Home Page
+
+Welcomes the user and provides navigation to Task Manager and API Data pages.
+
+Task Manager Page
+
+Displays task management interface with reusable buttons.
+
+API Data Page
+
+Displays fetched posts with search functionality.
+
+.
+
+👩🏽‍💻 Author
+
+Toluwase Eni
+PLP MERN Stack Development Cohort – React JS, JSX, and CSS Module
+
+🏁 License
+
+This project is open-source and free for educational use.
